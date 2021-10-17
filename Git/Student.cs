@@ -12,10 +12,12 @@ namespace Git
         public string LastName { get; set; }
         public int Age { get; set; }
 
+        public DateTime DateBirthday { get; set; }
+
 
         public override string ToString()
         {
-            return $"{FirstName}  {LastName}  {Age}";
+            return $"{FirstName}  {LastName}  {Age}  {DateBirthday}";
         }
     }
 }
