@@ -6,6 +6,14 @@ namespace Git
     {
         static void Main(string[] args)
         {
+            Exam exam = new Exam 
+            {
+             Name="Физика",
+             Date = DateTime.Now
+            };
+
+            Console.WriteLine(exam);
+
             Student student = new Student 
                 { 
                 FirstName = "Иван",
