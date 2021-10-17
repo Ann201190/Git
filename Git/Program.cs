@@ -6,7 +6,16 @@ namespace Git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Student student = new Student 
+                { 
+                FirstName = "Иван",
+                LastName = "Железняк",
+                Age = 30
+            };
+
+            Console.WriteLine(student);
+
+            Console.ReadKey();
         }
     }
 }
