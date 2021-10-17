@@ -10,6 +10,7 @@ namespace Git
     {
         public string Name { get; set; }
         public DateTime Date { get; set; }
+        public string Examenator { get; set; }
 
         public override string ToString()
         {
