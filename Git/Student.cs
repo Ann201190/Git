@@ -14,7 +14,10 @@ namespace Git
 
         public DateTime DateBirthday { get; set; }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return $"{FirstName}  {LastName}  {Age}  {DateBirthday}";
